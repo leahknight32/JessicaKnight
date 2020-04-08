@@ -1,0 +1,34 @@
+
+body {
+	background-image: url('darkbackground.jpg');
+    background-size: 100%;
+   }
+
+
+h1 {
+	color: #ebeae1;
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 80px; 
+	letter-spacing: 10px; 
+	text-align: center; 
+	}
+
+.container {
+	width: 100%;
+	height: 20px;
+	background-color: #736946;
+	}
+
+nav {text-align: center}
+nav a{
+	color: #ebeae1;
+	font-family: 'Helvetica Neue', sans-serif; 
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px; 
+	padding:30px;
+	}
+
+nav a:hover {
+	color:blue;
+	}
