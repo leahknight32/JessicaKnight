@@ -1,34 +1,59 @@
 
-body {
-	background-color:#807475;
-    background-size: 100%;
-   }
+body {background-color:#faf9f5;
+	background-size: 100%;}
 
 
-h1 {
-	color: #ebeae1;
-	font-family: 'Helvetica Neue', sans-serif; 
+h1 {color: #171301;
+	font-family: 'Lucida Console'; 
 	font-size: 80px; 
 	letter-spacing: 10px; 
-	text-align: center; 
-	}
+	text-align: center;
+	font-weight: 300 ;}
 
-.container {
-	width: 100%;
-	height: 20px;
-	background-color: #736946;
-	}
+.container {width: 200px;;
+	height: 700px;
+	background-color: #171301;
+	position: relative;}
 
-nav {text-align: center}
-nav a{
-	color: #ebeae1;
-	font-family: 'Helvetica Neue', sans-serif; 
+
+nav {text-align: right;}
+nav a{color: #f5f2f2;
+	font-family: 'Lucida Console'; 
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 1px; 
-	padding:30px;
-	}
+	font-size: 30px; 
+	padding:30px;}
+nav a:hover {color:#bcb3be;}
 
-nav a:hover {
-	color:blue;
-	}
+.container2{
+	left: 200px;
+	top: 0px;
+	position: absolute;
+	background-color:#f5f5f5;
+	width: 1000px;
+	height: 700px;
+	z-index: -1;}
+
+p1 {position: absolute;
+	padding-left:30%;
+	padding-top:30%;
+	color: #171301;
+	font-family: 'Lucida Console'; 
+	font-size: 40px; 
+	letter-spacing: 0px; 
+	text-align: center;
+	font-weight: 400 ;}
+
+.video {position: absolute;
+	padding-left: 1200px;
+	top:0;
+	height: 700px;
+}
+
+/*#807475
+#8D8A85
+#6E6C71
+#5F6075
+#A09E9F
+#1616148*/
